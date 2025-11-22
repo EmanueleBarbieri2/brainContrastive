@@ -1,0 +1,28 @@
+{
+  "data_dir": "data_ppmi",
+  "fc_dim": 90,
+  "sc_dim": 90,
+  "num_nodes": 90,
+  "embed_dim": 256,
+  "fc_hidden_dims": [
+    128,
+    128,
+    128
+  ],
+  "sc_hidden_dims": [
+    96,
+    96
+  ],
+  "num_heads": 4,
+  "dropout": 0.2,
+  "batch_size": 32,
+  "num_epochs": 100,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "temperature": 0.07,
+  "checkpoint_dir": "checkpoints_ppmi_modality_specific",
+  "patience": 15,
+  "lr_decay_patience": 5,
+  "lr_decay_factor": 0.5,
+  "save_every": 10
+}
