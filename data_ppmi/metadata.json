@@ -1,0 +1,38 @@
+{
+  "dataset": "PPMI",
+  "total_samples": 158,
+  "train_samples": 126,
+  "val_samples": 32,
+  "matrix_shape": [
+    90,
+    90
+  ],
+  "num_classes": 3,
+  "class_distribution": {
+    "0": 40,
+    "1": 49,
+    "2": 69
+  },
+  "train_class_distribution": {
+    "0": 34,
+    "1": 38,
+    "2": 54
+  },
+  "val_class_distribution": {
+    "0": 6,
+    "1": 11,
+    "2": 15
+  },
+  "fc_stats": {
+    "mean": 0.011111113242805004,
+    "std": 0.046356089413166046,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "sc_stats": {
+    "mean": 0.04566935822367668,
+    "std": 0.13063861429691315,
+    "min": 0.0,
+    "max": 0.8473830223083496
+  }
+}
